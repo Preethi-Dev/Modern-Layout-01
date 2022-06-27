@@ -53,6 +53,7 @@ header nav > * + * {
 
 main {
   grid-template-rows: auto auto auto auto auto;
+  overflow: hidden;
 }
 
 main img {
