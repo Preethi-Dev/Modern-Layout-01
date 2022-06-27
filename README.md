@@ -2,4 +2,4 @@
 
 ![screenshot](./assets/screenshot-layout-o1.png)
 
-### _50 days challenge on Modern Layouts using CSS Grid._
+ _50 days challenge on Modern Layouts using CSS Grid._
