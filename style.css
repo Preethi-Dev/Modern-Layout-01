@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Sallim;
+  src: url(./Sallim.ttf);
+  font-family: Anticva;
+  src: url(./Anticva-Regular.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
