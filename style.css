@@ -1,19 +1,30 @@
-@font-face {
-  font-family: Sallim;
-  src: url(./Sallim.ttf);
-}
-@font-face {
-  font-family: Anticva;
-  src: url(./Anticva-Regular.otf);
-}
-
-* {
+/* Resets */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+/* Fonts */
+@font-face {
+  font-family: "Sallim";
+  src: url(./assets/fonts/Sallim.ttf);
+}
+@font-face {
+  font-family: "Anticva";
+  src: url(./assets/fonts/Anticva-Regular.otf);
+}
+
+/* Variables */
+:root {
+  --bg: #1e2321;
+}
+
+/* Mobile Styles */
 body {
-  background: #1e2321;
+  background-color: var(--bg);
 }
 
 .grid {
